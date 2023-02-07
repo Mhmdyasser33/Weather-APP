@@ -1,0 +1,19 @@
+:root{
+--title-font_weigth: bolder ; 
+--title_value_font_weigth: 700 ;
+}
+.container{
+    margin-top: 20px ;
+}
+.container .title{
+    font-size: 20px ;
+    font-weight: var(--title-font_weigth) ;
+    padding: 5px ;
+    margin-left: 5px ;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-style: italic ;
+    }
+    .container .title_value{
+        font-size: 19px ;
+        font-weight: var(--title_value_font_weigth) ;
+    }

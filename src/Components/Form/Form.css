@@ -1,0 +1,40 @@
+:root{
+--input-border : 1px solid var(--background-color) ; 
+--input-font_Weigth : 600 ; 
+--submit-btn_weigth: 600 ; 
+--submit-border_radius : 10px; 
+}
+
+form .city , .country {
+    width : 50% ; 
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    margin-left: calc(50% / 2 ) ; 
+    height: 35px ;
+   padding: 10px ;
+   border-radius: 10px ;
+   border: var(--input-border) ;
+   font-size: 15px ;
+   font-weight: var(--input-font_Weigth);
+}
+form .city{
+    margin-top: 20px ;
+}
+form .submit {
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    width : 53% ; 
+    height: 35px ;
+    font-weight: var(--submit-btn_weigth);
+    font-size: 17px ;
+    margin-left: 85px ;
+    cursor: pointer ;
+    background: var(--background-color);
+    color : #fff ; 
+    border: none ;
+    border-radius: var(--submit-border_radius)  ; 
+    transition: all .5s ease ;
+}
+
